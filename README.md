@@ -2,8 +2,6 @@
 
 This project is aimed at solving a provided Unity Machine Learning Agents Toolkit challenge. In this challenge, a simulated robotic agent must learn to reach with its arm for a certain position by applying torque to the joint motors. This project uses the 20-agent version of the environment.
 
-<img src="https://github.com/fd17/UnityML-Continuous-Control/blob/master/trained_example.gif" width="480" height="270" />
-
 ## Requirements
 
 * Windows (64 bit)
@@ -62,4 +60,14 @@ During training, the agent collects a maximum of tmax steps of experience. Then 
 
 With these settings, the agent should learn to solve the environment 
 within 200 episodes.
+
+## Showcase
+Example of an untrained agent:
+
+<img src="https://github.com/fd17/UnityML-Continuous-Control/blob/master/untrained_example.gif" width="480" height="270" />
+
+... and the same agent after 156 episodes of training:
+
+<img src="https://github.com/fd17/UnityML-Continuous-Control/blob/master/trained_example.gif" width="480" height="270" />
+
 
