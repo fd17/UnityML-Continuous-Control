@@ -32,7 +32,7 @@ Jupyter should come installed with Anaconda. If not, [click here](http://jupyter
 
 
 ## Getting started
-The project can be run with the provided jupyter notebooks. Reacher_Observe.ipynb allows one to observe a fully trained agent in the environment. Reacher_Training.ipynb can be used to train a new agent or continue training a pre-trained agent. Several partially pre-trained agents and one fully trained agents are stored in the savedata folder.
+The project can be run with the provided jupyter notebooks. Reacher_Observe.ipynb allows one to observe a fully trained agent in the environment. Reacher_Training.ipynb can be used to train a new agent or continue training a pre-trained agent. Several partially pre-trained agents and one fully trained agents are stored in the `savedata` folder.
 
 ## Environment
 The environment is a a platform with 20 robot arms. Each arm has its own target sphere hovering around it at random positions. The observation space for a single agent consists of 33 continuous variables, containing observables like position, rotation and angular velocities. The action space consists of 4 continuous actions between -1.0 and +1.0, corresponding to torque at the arm's joints. Each of the two joints can be rotated in two directions.
